@@ -1,0 +1,78 @@
+@import '../../_variables.scss';
+
+.dashboard {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sudoku {
+    height: 300px;
+    width: 300px;
+    background-image: url("sudoku1.jpg");
+    background-size: 150%;
+    background-position: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Marmelad', sans-serif;
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 27px;
+    align-items: flex-end;
+    font-size: 40px;
+    font-weight: 1000;
+    color: white;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 8px black;
+}
+
+.sudoku:hover {
+    box-shadow: 0 0 1px 3px $tl;
+}
+
+
+.chess {
+    height: 300px;
+    width: 300px;
+    background-image: url("./chess.jpeg");
+    background-size: 150%;
+    background-position: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Martel', serif;
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    align-items: flex-end;
+    font-size: 38px;
+    font-weight: 180;
+    color: white;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black;
+}
+
+.chess:hover {
+    box-shadow: 0 0 1px 3px $tl;
+}
+
+.tetris {
+    height: 300px;
+    width: 300px;
+    background-image: url("./tetris.png");
+    background-size: 120%;
+    background-position: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    padding-left: 15px;
+    align-items: flex-end;
+    font-size: 38px;
+    /* font-weight: 180; */
+    color: white;
+    text-shadow: 0 0 10px black,0 0 10px black,0 0 10px black;
+
+}
+
+.tetris:hover {
+    box-shadow: 0 0 1px 3px $tl;
+}

@@ -1,0 +1,24 @@
+-- create table puzzles (
+--     id serial primary key,
+--     difficulty varchar(30),
+--     one varchar(50),
+--     two varchar(50),
+--     three varchar(50),
+--     four varchar(50),
+--     five varchar(50),
+--     six varchar(50),
+--     seven varchar(50),
+--     eight varchar(50),
+--     nine varchar(50)
+-- );
+
+
+-- create table users (
+--     id serial primary key,
+--     firstname varchar(40), 
+--     lastname varchar(40), 
+--     username varchar(30), 
+--     email varchar(50), 
+--     password varchar(200), 
+--     image text
+-- );

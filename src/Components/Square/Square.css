@@ -1,0 +1,54 @@
+.square {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 35px;
+    text-align: center;
+    /* background-color: lightgrey; */
+    /* display: block; */
+    /* box-sizing: border-box; */
+    position: relative;
+}
+
+.square3 {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 3px solid black;
+    font-size: 35px;
+    text-align: center;
+    /* background-color: lightgrey;  */
+    display: block;
+    position: relative;
+}
+
+
+.square-input {
+    height: 100%;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    color: rgb(97, 176, 207);
+}
+
+
+.square:hover {
+    background-color: lightgrey;
+}
+.square3:hover {
+    background-color: lightgrey;
+}
+.square-input:hover {
+    background-color: lightgrey;
+}
+.square-input3:hover {
+    background-color: lightgrey;
+}
+
+.square-input:focus {
+    background-color: lightgrey;
+}
+
+

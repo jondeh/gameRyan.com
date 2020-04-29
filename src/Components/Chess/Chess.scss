@@ -1,0 +1,91 @@
+@import '../../_variables.scss';
+
+.chess-container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chess-board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    // border: 1px solid $bg;
+}
+
+.tile-true-false {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch;
+}
+.tile-true-false:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch2;
+}
+
+.tile-false-false {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch;
+}
+.tile-false-false:nth-child(even){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch2;
+}
+
+/* .tile-true-false:active {
+    box-shadow: 0 0 5px 5px black;
+}
+
+.tile-false-false:active {
+    box-shadow: 0 0 5px 5px black;
+} */
+
+/* For selected tile */
+
+.tile-true-true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch3;
+    background-size: 50%;
+    background-position: center;
+}
+
+.tile-true-true:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch3;
+}
+
+.tile-false-true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch3;
+}
+.tile-false-true:nth-child(even){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $ch3;
+}
+/* 
+.tile-true-true:active {
+    box-shadow: 0 0 5px 5px black;
+}
+
+.tile-false-true:active {
+    box-shadow: 0 0 5px 5px black;
+} */

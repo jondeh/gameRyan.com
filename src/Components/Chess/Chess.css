@@ -1,0 +1,90 @@
+.chess-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.chess-board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 1px solid lightgrey;
+}
+
+.tile-true-false {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(66, 63, 94);
+}
+.tile-true-false:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+
+.tile-false-false {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(66, 63, 94);
+}
+.tile-false-false:nth-child(even){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+}
+
+/* .tile-true-false:active {
+    box-shadow: 0 0 5px 5px black;
+}
+
+.tile-false-false:active {
+    box-shadow: 0 0 5px 5px black;
+} */
+
+/* For selected tile */
+
+.tile-true-true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    background-size: 50%;
+    background-position: center;
+}
+
+.tile-true-true:nth-child(odd){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+
+.tile-false-true {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+.tile-false-true:nth-child(even){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+}
+/* 
+.tile-true-true:active {
+    box-shadow: 0 0 5px 5px black;
+}
+
+.tile-false-true:active {
+    box-shadow: 0 0 5px 5px black;
+} */

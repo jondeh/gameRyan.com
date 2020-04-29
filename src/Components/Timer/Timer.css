@@ -1,0 +1,15 @@
+.timer {
+    height: 70%;
+    width: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.pause {
+    position: absolute;
+    right: 20px;
+}

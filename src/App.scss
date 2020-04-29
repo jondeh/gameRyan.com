@@ -1,0 +1,48 @@
+@import '_variables.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border: none;
+  }
+
+  input:focus {
+    outline:0;
+  }
+  button:focus {
+    outline:0;
+  }
+
+  input {
+    cursor: pointer;
+    
+  }
+
+  button {
+    cursor: pointer;
+  }
+  
+  .App {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .app-body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background: $bdy;
+    /* border: 1px solid blue; */
+  }

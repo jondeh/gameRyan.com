@@ -1,0 +1,12 @@
+@import '../../_variables.scss';
+
+.register {
+    padding-top: 50px;
+    border: 1px solid $tl;
+    height: 70%;
+    width: 50%;
+}
+
+.register input {
+    background-color: $bg;
+}
